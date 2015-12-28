@@ -13,9 +13,10 @@
 .clearfix:after {
   clear: both;
 }
+/*código del carousel*/
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
+    -webkit-filter:(100%);
+    filter: (100%); /* make all photos black and white */ 
     width: 100%; /* Set width to 100% */
     margin: auto;
 }
@@ -29,3 +30,18 @@
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
+/*fin de código de carousel*/
+/*código del portafolio*/
+.thumbnail {
+    padding: 0 0 20px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/*fin del portafol*/
