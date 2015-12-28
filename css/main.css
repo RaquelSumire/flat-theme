@@ -43,5 +43,7 @@
     height: 100%;
     margin-bottom: 10px;
 }
-
 /*fin del portafol*/
+#blog p{
+  font-size:22px;
+}
