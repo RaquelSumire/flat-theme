@@ -1,3 +1,4 @@
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {
@@ -121,6 +122,40 @@ header{
     margin-bottom: 10px;
 }
 /*fin del portafol*/
-#blog p{
-  font-size:22px;
+ul{
+  padding: 0px;
 }
+/*codigos de blog*/
+
+.iconos-blog li{
+  display: inline-block;
+}
+.busqueda{
+  border-color:#E93D3D;
+  margin-bottom: 30px;
+}
+.bn-azules li{
+  display: inline-block;
+
+
+}
+.bn-azules .boton{
+  background: #337ab7;
+  border-color:#337ab7; 
+  padding:3px 5px;
+  margin-bottom:3px;
+  color:#fff;
+  font-size:12px;
+}
+.boton:hover{
+  background:#042873;
+}
+/**código de botones con números del blog**/
+.pagination>li>a{
+  border:0px;
+  color:black;
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    background-color:#337ab7;
+  }
+  /**código de botones con números del blog**/
