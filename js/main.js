@@ -22,7 +22,7 @@ jQuery(function ($) {
     });
 
     //goto top
-    $('.gototop').click(function (event) {
+    $('gototop').click(function (event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("body").offset().top

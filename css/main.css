@@ -13,6 +13,83 @@
 .clearfix:after {
   clear: both;
 }
+/*MENU*/
+header{
+    width: 100%;
+    background: #34495e;
+}
+.navbar-default{
+    background: #34495e;
+    border: none;
+    margin-bottom: 10px;
+}
+#bs-example-navbar-collapse-1{
+    padding-top: 10px;
+}
+#bs-example-navbar-collapse-1 a{
+    color: #dde0e3;
+}
+#bs-example-navbar-collapse-1 a:hover, .active{
+    text-decoration: none;
+    color: #fff;
+    background: #2c3e50;
+}
+.navbar-toggle.collapsed{
+    margin: 12px 0px; 
+}
+/*REDES*/
+#redes{
+    width: 100%;
+    background: #2ecc71;
+    padding: 40px 0px 40px 0px;
+    color:#fff;
+    font-size: 12px;
+}
+#redes i{
+    font-size: 20px;
+}
+.circulo-r, .circulo-f{
+    border-radius: 100%;
+    background: #1c7a44;
+    width: 40px;
+    height: 40px;
+    padding:10px 0px 0px 12px;
+    margin: 0px 10px 0px 10px;
+}
+.circulo-f{
+    padding: 10px 10px 0px 15px
+}
+/*PROYECT*/
+#proyect{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 80px 0px 80px 0px;
+}
+.pagination>li>a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #d9534f;
+    border: 1px solid #d9534f;
+}
+/*CLIENTS*/
+#clients{
+    width: 100%;
+    background: #e74c3c;
+    color:#fff;
+    padding: 50px 0px 50px 0px;
+}
+#clients .subtitulo{
+    padding-bottom: 40px;
+    border: none;
+}
+#clients p{
+    border-left: 4px solid #fff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+
 /*código del carousel*/
 .carousel-inner img {
     -webkit-filter:(100%);
