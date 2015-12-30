@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-<!-- MENU -->
+<div id="menu-contenedor">
 <header>
 <div class="container">
     <div class="row">
@@ -53,6 +53,7 @@
                               aria-expanded="false">Blog <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu">
+                            <li><a href="blog.html">Blog</a></li>
                             <li><a href="blog-item.html">Blog-Item</a></li>
                           </ul>
                         </li>
@@ -64,13 +65,34 @@
     </div>
 </div>
 </header>
+</div><!--MENU-CONTENEDOR-->
+<!--BANNER-->
+<div id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>Blog Item</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et matesuada</p>
+            </div>
+            <div class="col-md-2 pull-right">
+               <ul>
+                  <li><a href="#">Home </a></li>
+                  <li><a href="#">/ Page </a></li>
+                  <li><a href="#">/ Blog Item</a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- BLOG CONTENIDO -->
 <div id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">                  
-                    <div class="thumbnail">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-xs-12">
+              <div class="item">
+                    <div class="thumbnail image">
                         <img src="images/blog/blog2.jpg" alt="">
+                      <div class="contenido-blog">
                         <h3>Conubia nostra per inceotos himenaneos</h3>
                         <ul class="iconos-blog">
                             <li><a href=""><i class="icon-user"></i>John</a></li>
@@ -78,15 +100,13 @@
                             <li><a href=""><i class="icon-calendar"></i>Sept 16th 2016</a></li>
                             <li><a href=""><i class="icon-comment"></i>3Comments</a></li>
                         </ul> 
-                        <h4>preggd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quis, officia commodi magnam? Dicta incidunt                             libero vitae aspernatur laborum iure veniam aliquam unde animi, nobis, odio necessitatibus inventore repudiandae                                 consequuntur!</h4>
-                        <h5>Pellentesque habiand Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus placeat laudantium possimus                         eligendi sapiente nesciunt deserunt! Eveniet in id provident aut doloribus totam nulla dolor reiciendis, quam autem, quis                         modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ullam, ipsam minus aliquam, sit illo! Ea ullam                             eligendi odio veniam, pariatur quod aliquid vitae! Neque nisi sint quo in doloremque.</h5>
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo, dolorum animi sed quod. Facilis                                     reprehenderit iste sunt, vero laboriosam dolorem ea voluptatum quaerat fugit, facere tempore vel explicabo, modi.</h5>
-                        <!--lista de botones azules de la columna izquierda-->
-                        <h4>preggd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quis, officia commodi magnam? Dicta incidunt                             libero vitae aspernatur laborum iure veniam aliquam unde animi, nobis, odio necessitatibus inventore repudiandae                                 consequuntur!</h4>
-                        <h5>Pellentesque habiand Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus placeat laudantium possimus                          eligendi sapiente nesciunt deserunt! Eveniet in id provident aut doloribus totam nulla dolor reiciendis, quam autem,                              quis modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ullam, ipsam minus aliquam, sit illo! Ea                              ullam eligendi odio veniam, pariatur quod aliquid vitae! Neque nisi sint quo in doloremque.</h5>
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo, dolorum animi sed quod. Facilis                                     reprehenderit iste sunt, vero laboriosam dolorem ea voluptatum quaerat fugit, facere tempore vel explicabo, modi.</h5>
-                    </div><!--thumbnail-->
-             <!--lista de botones azules de la columna izquierda-->
+                         <p style="font-size:18px;">proin gravida nibh Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolores,perferendis. Hic, distinctio? Obcaecati unde itaque, dicta voluptas facere numquam ab placeat excepturi nam vjsderesrretv trfe hthe temporibus,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim fugit, dolorem perferendis dolores inventore exercitationem explicabo necessitatibus repellendus sapiente temporibus quis distkdbvhsbinctio doloribus voluptate et nihil iste cupiditate ullam vellabore non aut?</p>
+                        <p>Pellentesque habitant  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci natus qui modi, laborum ab similique. Architecto ex nam quos cupiditate sunt, debitis dolore consequuntur autem asperiores quis, nostrum ipsum omnis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis natus id, reiciendis nisi excepturi minima error deserunt! Impedit at quasi obcaecati odit est modi optio libero nisi. Expedita, animi!</p>
+                        <p class="raya">Pellentesque habitant Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quaerat atque natus, qui sapiente, autem quibusdam labore neque est quia officia reprehenderit recusandae. Accusantium impedit commodi earum, error non sunt?</p>
+                      </div>
+                    </div>
+                      <!--lista de botones azules de la columna izquierda-->
+                      <div class="contenido-blog">
                         <ul class="bn-azules">
                             <li>
                             <button class="btn boton" style="background:#fff;color:black;border-color:#fff;"><i class="icon-tags"></i>Tags</li>
@@ -94,19 +114,59 @@
                             <li><button type="button" class="btn boton btn-default">HTML5</button></li> 
                             <li><button type="button" class="btn boton btn-default">WordPress</button></li>
                             <li><button type="button" class="btn boton btn-default">Joomla</button></li>
-                        </ul><!--fin lista col-left-->    
-                      <!--comentarios de john-->
+                        </ul><!--fin lista col-left-->
                         <div class="media">
-                          <div class="media-left">
-                            <a href="#"><img class="media-object" src="images/blog/thumb1.jpg" alt="i"></a>
-                          </div>
-                          <div class="media-body">
-                            <h4 class="media-heading">john Doe</h4>
-                            <p>Pellentesque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores doloribus quae quibusdam assumenda,                             ad optio corporis adipisci amet eligendi reiciendis natus quo. Iste numquam non natus eum adipisci at a.</p>
-                          </div>
-                        </div><!--fin de comentarios de john-->
-                        <!--seccion-Leave a comment-->
-                        <div class="comment">
+                          <div class="borde-comentario" style="padding:15px;"><!--comentarios de john-->
+                            <div class="media-left">
+                              <a href="#"><img class="media-object" src="images/blog/thumb1.jpg" alt="i" style="border:2px solid #ffffff;"></a>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="media-heading">John Doe</h4>
+                              <h5>Pellentesque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores doloribus quae quibusdam assumenda,                             ad optio corporis adipisci amet eligendi reiciendis natus quo. Iste numquam non natus eum adipisci at a.</h5>
+                            </div>
+                          </div><!--fin de comentarios de john-->
+                         </div>
+                         <h3>3 Comments</h3>
+                         <ul class="media-list">
+                            <li class="media">
+                              <div class="media-left img-redondo">
+                                <a href="#">
+                                  <img class="media-object" src="images/blog/avatar1.png" alt="...">
+                                </a>
+                              </div>
+                              <div class="media-body borde-comentario" style="padding:15px;">
+                                <h4 class="media-heading">John Doe <span style="font-size:13px;"> 27 aug 2015</span></h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati expedita adipisci harum incidunt nostrum. Sequi nam numquam iste earum consequatur tempora xpedita adipisci harum incidunt nostrum. Sequi nam numquam i ea.</h5>
+                              </div>
+                            </li>
+                          </ul>
+                          <ul class="media-list" style="margin-left:8%;">
+                            <li class="media">
+                              <div class="media-left img-redondo">
+                                <a href="#">
+                                  <img class="media-object" src="images/blog/avatar3.png" alt="...">
+                                </a>
+                              </div>
+                              <div class="media-body borde-comentario" style="padding:15px;">
+                                <h4 class="media-heading">John Doe <span style="font-size:13px;"> 27 aug 2015</span></h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati expedita adipisci harum incidunt nostrum. Sequi nam numquam iste earum consequatur tempora.</h5>
+                              </div>
+                            </li>
+                          </ul>
+                          <ul class="media-list">
+                            <li class="media">
+                              <div class="media-left img-redondo">
+                                <a href="#">
+                                  <img class="media-object" src="images/blog/avatar2.png" alt="...">
+                                </a>
+                              </div>
+                              <div class="media-body borde-comentario" style="padding:15px;">
+                                <h4 class="media-heading">John Doe <span style="font-size:13px;"> 27 aug 2015</span></h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati expedita adipisci harum incidunt nostrum. Sequi nam numquam iste earum consequatur tempora xpedita adipisci harum incidunt nostrum. Sequi nam numquam iste ea.</h5>
+                              </div>
+                            </li>
+                          </ul>
+                         <div class="comment">
                           <div class="row">
                             <div class="col-sm-6 form-group">
                                 <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -118,42 +178,43 @@
                               <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                               <button class="btn" style="background:#E93D3D;color:#fff">Submit Comment</button>
                         </div>
-                     
-                </div><!--fin de col-8-->
-
-                <div class="container col-md-4 ">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-btn">
-                      <button class="btn busqueda btn-default" type="button" style="background:#E93D3D"><i class="icon-search"></i></button>
-                    </span>
-                  </div><!-- /input-group -->
-                    <div class="row">
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                      </div><!--fin contenido-blog-->
+                </div>
+            </div>
+                <div class="container col-sm-4 col-xs-12">
+                  <div class="boton-busqueda">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <span class="input-group-btn">
+                        <button class="btn busqueda btn-default" type="button" style="background:#E93D3D"><i class="icon-search"></i></button>
+                      </span>
+                    </div><!-- /input-group -->
+                  </div>
+                    <div class="row img">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad1.png" alt="">
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad2.png" alt="">
                           </div>
                         </div>
-                   
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad3.png" alt="">
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad4.png" alt="">
                           </div>
                         </div>
                     </div> 
                     <h3>Blogs categories</h3> 
                     <!--blog categories-->
-                    <div class="container row">
+                    <div class="row blogs-categories">
                         <div class="col-sm-6">
                           <ul>
                               <li><a href=""><i class="icon-angle-right"></i>Development</a></li>
@@ -207,16 +268,15 @@
             
                 <div class="col-md-3" style="padding-left:50px">
                     <h4>Company</h4>
-                    <ul>
-                        <li>Company Overview</li>
-                        <li>Meet The Team</li>
-                        <li>Our Awesome Partners</li>
-                        <li>Our Services</li>
-                        <li>Frequently Asked Questions</li>
-                        <li>Contatct US</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms Of Use</li>
-                        <li>Copyright</li>
+                    <ul class="list-footer">
+                        <li><a href=""><i class="icon-angle-right"></i>Company Overview</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Meet The Team</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Our Awesome Partners</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Frequently Asked Questions</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Contatct US</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Privacy Policy</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Terms Of Use</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Copyright</a></li>
                     </ul>
                 </div>
         

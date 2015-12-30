@@ -22,6 +22,7 @@
   </head><!--/head-->
   <body>
 <!-- MENU -->
+<div id="menu-contenedor">
 <header>
 <div class="container">
     <div class="row">
@@ -53,6 +54,7 @@
                               aria-expanded="false">Blog <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu">
+                            <li><a href="blog.html">Blog</a></li>
                             <li><a href="blog-item.html">Blog-Item</a></li>
                           </ul>
                         </li>
@@ -64,13 +66,32 @@
     </div>
 </div>
 </header>
+</div><!--MENU-CONTENEDOR-->
+<!--BANNER-->
+<div id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>Blog</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et matesuada</p>
+            </div>
+            <div class="col-md-2 pull-right">
+               <ul>
+                   <li><a href="#">Home </a></li>
+                    <li><a href="#">/ Blog</a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- BLOG -->
 <div id="blog">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                    <div class="thumbnail">
+            <div class="col-sm-8 col-xs-12">
+                    <div class="thumbnail image">
                         <img src="images/blog/blog1.jpg" alt="">
+                      <div class="contenido-blog">
                         <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
                         <ul class="iconos-blog">
                             <li><a href=""><i class="icon-user"></i>John</a></li>
@@ -78,13 +99,15 @@
                             <li><a href=""><i class="icon-calendar"></i>Sept 16th 2016</a></li>
                             <li><a href=""><i class="icon-comment"></i>3Comments</a></li>
                         </ul>
-                        <p style="font-size:15px;">proin gravida nibh Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolores,                         perferendis. Hic, distinctio? Obcaecati unde itaque, dicta voluptas facere numquam ab placeat excepturi nam temporibus,                           necessitatibus a labore non aut?</p>
+                        <p style="font-size:18px;">proin gravida nibh Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolores,                         perferendis. Hic, distinctio? Obcaecati unde itaque, dicta voluptas facere numquam ab placeat excepturi nam temporibus,                           necessitatibus a labore non aut?</p>
 
                         <button type="button" class="btn btn-default">Read More <i class="icon-angle-right"></i></button>
+                      </div>
                     </div>
 
-                    <div class="thumbnail">
+                    <div class="thumbnail image">
                         <img src="images/blog/blog2.jpg" alt="">
+                      <div class="contenido-blog">
                         <h3>Conubia nostra per inceotos himenaneos</h3>
                         <ul class="iconos-blog">
                             <li><a href=""><i class="icon-user"></i>John</a></li>
@@ -92,9 +115,11 @@
                             <li><a href=""><i class="icon-calendar"></i>Sept 16th 2016</a></li>
                             <li><a href=""><i class="icon-comment"></i>3Comments</a></li>
                         </ul> 
-                        <p style="font-size:15px;">proin gravida nibh Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolores,                         perferendis. Hic, distinctio? Obcaecati unde itaque, dicta voluptas facere numquam ab placeat excepturi nam temporibus,                           necessitatibus a labore non aut?</p>
+                        <p style="font-size:18px;">proin gravida nibh Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolores,                         perferendis. Hic, distinctio? Obcaecati unde itaque, dicta voluptas facere numquam ab placeat excepturi nam temporibus,                           necessitatibus a labore non aut?</p>
 
                         <button type="button" class="btn btn-default">Read More <i class="icon-angle-right"></i></button>
+                      </div>
+                    </div>
                         <!--botones con numeros-->
                         <nav>
                             <ul class="pagination">
@@ -108,41 +133,41 @@
                             </ul>
                         </nav>
                         <!--fin de botones con numeros-->
-                    </div>
-                </div>
-                <div class="container col-md-4 ">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-btn">
-                      <button class="btn busqueda btn-default" type="button" style="background:#E93D3D"><i class="icon-search"></i></button>
-                    </span>
-                  </div><!-- /input-group -->
-                    <div class="row">
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+            </div>
+                <div class="container col-sm-4 col-xs-12">
+                  <div class="boton-busqueda">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <span class="input-group-btn">
+                        <button class="btn busqueda btn-default" type="button" style="background:#E93D3D"><i class="icon-search"></i></button>
+                      </span>
+                    </div><!-- /input-group -->
+                  </div>
+                    <div class="row img">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad1.png" alt="">
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad2.png" alt="">
                           </div>
                         </div>
-                   
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad3.png" alt="">
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="thumbnail">
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="thumbnail image">
                             <img src="images/ads/ad4.png" alt="">
                           </div>
                         </div>
                     </div> 
                     <h3>Blogs categories</h3> 
                     <!--blog categories-->
-                    <div class="container row">
+                    <div class="row blogs-categories">
                         <div class="col-sm-6">
                           <ul>
                               <li><a href=""><i class="icon-angle-right"></i>Development</a></li>
@@ -196,16 +221,15 @@
             
                 <div class="col-md-3" style="padding-left:50px">
                     <h4>Company</h4>
-                    <ul>
-                        <li>Company Overview</li>
-                        <li>Meet The Team</li>
-                        <li>Our Awesome Partners</li>
-                        <li>Our Services</li>
-                        <li>Frequently Asked Questions</li>
-                        <li>Contatct US</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms Of Use</li>
-                        <li>Copyright</li>
+                    <ul class="list-footer">
+                        <li><a href=""><i class="icon-angle-right"></i>Company Overview</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Meet The Team</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Our Awesome Partners</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Frequently Asked Questions</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Contatct US</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Privacy Policy</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Terms Of Use</a></li>
+                        <li><a href=""><i class="icon-angle-right"></i>Copyright</a></li>
                     </ul>
                 </div>
         
