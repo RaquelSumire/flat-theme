@@ -137,7 +137,9 @@ header{
     border: none;
     border-radius: 0;
 }
-
+body{
+  background:purple;
+}
 .thumbnail img {
     width: 100%;
     height: 100%;
@@ -148,7 +150,16 @@ ul{
   padding: 0px;
 }
 /*codigos de blog*/
-
+.borde-blog{
+  border-radius:6px;
+}
+.contenido-blog, .bn-azules, .media , .comment{
+  padding:0px 25px;
+}
+.borde-comentario{
+  border-radius: 6px;
+  background: black;
+}
 .iconos-blog li{
   display: inline-block;
 }
