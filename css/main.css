@@ -327,6 +327,7 @@ header{
 .contenido-blog, .comment{
   padding:0px 25px;
   padding-bottom:20px;
+  margin-bottom:15px;
 }
 .raya{
   padding-bottom:15px;
