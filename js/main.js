@@ -29,3 +29,11 @@ jQuery(function ($) {
         }, 500);
     });
 });
+
+    $(document).ready(initPage);
+    	function initPage(){
+    		$('#arrow-up').click(irArriba);
+    	}
+    	function irArriba(){
+    		tweenMax.to('body',1,{scrollto:{y,0},ease:Elastic.easeOut})
+        }
