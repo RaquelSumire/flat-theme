@@ -34,6 +34,7 @@ jQuery(function ($) {
     	function initPage(){
     		$('#arrow-up').click(irArriba);
     	}
-    	function irArriba(){
-    		tweenMax.to('body',1,{scrollto:{y,0},ease:Elastic.easeOut})
+    	function irArriba(evt){
+    		TweenMax.to('body',5,{scrollTo:{y:0},ease:Elastic.easeOut});
+            evt.preventDefault();
         }
