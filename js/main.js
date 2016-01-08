@@ -28,7 +28,7 @@ jQuery(function ($) {
             scrollTop: $("body").offset().top
         }, 500);
     });
-});
+);
 
     $(document).ready(initPage);
     	function initPage(){
